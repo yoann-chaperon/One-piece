@@ -1,0 +1,174 @@
+root {
+    --fondHeader: #f9f9f9;
+    --bordure: #eaeaea;
+    --WORK: #0766F0;
+    --TEAM: #DC5E53;
+    --news: #98DC62;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+section {
+    height: 100vh;
+    width: 50%;
+}
+
+#students {
+    font-size: 0.5em;
+    font-style: italic;
+    font-weight: normal;
+}
+
+#section-1 {
+    background-image: url(https://external-preview.redd.it/lArQ8KhvF0WOzlGvGnCn-8jYr1UQgEMCb6ZuBM7Jshs.jpg?auto=webp&s=5cef1356219b3ebd1889e740d7ced07832005c1a);
+    /*/attach + position: ; */
+    background-size: cover;
+    background-position: center;
+    background-attachment: initial;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.section-2 {
+    position: absolute;
+    top: 0;
+    right: 0;;
+}
+.titre {
+    display: flex;
+    align-items: center;
+    margin: 3em 0 0 1em;
+    height: 100px;
+
+}
+
+h1 {
+    color: white;
+    width: 1em;
+    line-height: 1.2em;
+    font-size: 1.8em;
+    font-weight: 900;
+}
+
+h2,
+h3 {
+    font-size: 2em;
+}
+
+.para {
+    text-align: right;
+    color: white;
+    background-color: rgba(116, 114, 114, 0.3);
+    padding: 1.8em 2em;
+    margin: 0 30px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 3em;
+}
+
+footer a {
+    padding: 0 1em;
+    font-size: 1em;
+    color: white;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 1em;
+    margin: 0;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "1 2";
+}
+
+article:nth-child(1) {
+    grid-area: 1;
+}
+
+article:nth-child(3) {
+    grid-area: 2;
+}
+
+
+.bouton {
+    color: white;
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.news {
+    background-color: #98DC62;
+    ;
+}
+
+.team {
+    background-color: rgb(223,110,44);
+}
+
+.work {
+    background-color: #0766F0;
+}
+
+h4 {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+article img {
+    width: 3.5em;
+    margin-right: 1px;
+}
+
+article {
+    border: 1px solid #eaeaea;
+    padding: 2em;
+}
+
+article a {
+    text-decoration: underline;
+}
+
+em {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 0.8em;
+}
+
+.berry {
+    font-size: 0.8em;
+    color: rgb(183,134,11);
+}
+
+.berry img {
+    margin: 0 5px 0 10px;
+    width: 2em;
+}
+
+
+/* ########################### PAUSE PIPi animalier :) ######################### a 11h50 revient deavnt 5 min */
